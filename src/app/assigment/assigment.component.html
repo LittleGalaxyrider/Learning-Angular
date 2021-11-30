@@ -1,0 +1,8 @@
+<p>assigment works!</p>
+
+<input [(ngModel)]="username" type="text">
+<p>{{ username }}</p>
+<button
+  (click)="username=''"
+  [disabled]="username==''">
+</button>
